@@ -26,7 +26,7 @@ else if(userAge > 18 && userAge <= 22){
 
 	let confirmation = confirm('Are you sure you want to continue');
 
-	if (true){ 
+	if ( confirmation === true){ 
 
 	alert('Welcome,' + userName);
  }
