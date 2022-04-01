@@ -6,9 +6,11 @@ let userName = prompt('Enter your name here!');
 let userAge = +prompt('Enter your age here');
 
 
- do{ userName = prompt('Enter your name here to continue!',userName); }
+ do{ userName = prompt('Enter your name here to continue!',userName);
+    
+    userAge = +prompt('Enter your age here',userAge); }
 
-        while( userName === null || userName === ''|| isNaN( userAge = +prompt('Enter your age here',userAge);}userAge) || userAge === 0 )
+        while( userName === null || userName === ''|| isNaN(userAge) || userAge === 0 )
 
 	
 
