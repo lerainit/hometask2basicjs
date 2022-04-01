@@ -54,6 +54,21 @@ alert(b);
 ### Обьекти 
 -OBJECT используются для хранения коллекций данных или более сложных объектов
 
+### Примеры данных разных типов:
+
+```js
+
+const number = 123;
+const string = 'Some string';
+const boolean = true;
+let nothingYet = null;
+let nothing;
+const array = [];
+const object = {};
+const func = () => {};
+
+```
+
 ## Разница между операторами 
 
 ##                '== 'и '==='
