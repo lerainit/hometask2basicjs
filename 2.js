@@ -5,22 +5,15 @@ let userName = prompt('Enter your name here!');
 
 let userAge = +prompt('Enter your age here');
 
-
- do{ userName = prompt('Enter your name here to continue!',userName);
-    
-    userAge = +prompt('Enter your age here',userAge); }
-
-        while( userName === null || userName === ''|| isNaN(userAge) || userAge === 0 )
-
+while( userName === null || userName === ''|| isNaN(userAge) || userAge === 0 ){
 	
+ userName = prompt('Enter your name here to continue!',userName);
+    
+ userAge = +prompt('Enter your age here',userAge); }
 
+  if( userAge < 18){
 
-
-
-
-if( userAge < 18){
-
-	alert('You are not allowed to visit this website');
+  alert('You are not allowed to visit this website');
 
 } 
    
