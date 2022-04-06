@@ -7,17 +7,16 @@ let userAge = +prompt('Enter your age here');
 
 while( userName === null || userName === ''|| isNaN(userAge) || userAge === 0 ){
 	
- userName = prompt('Enter your name here to continue!',userName);
+    userName = prompt('Enter your name here to continue!',userName);
     
- userAge = +prompt('Enter your age here',userAge); }
+    userAge = +prompt('Enter your age here',userAge); }
 
   if( userAge < 18){
 
-  alert('You are not allowed to visit this website');
-
-} 
+     alert('You are not allowed to visit this website');
+  } 
    
-else if(userAge > 18 && userAge <= 22){
+ else if(userAge > 18 && userAge <= 22){
 
 	let confirmation = confirm('Are you sure you want to continue');
 
@@ -28,17 +27,17 @@ else if(userAge > 18 && userAge <= 22){
 
 	else{
 
-       alert('You are not allowed to visit this website');
+             alert('You are not allowed to visit this website');
 
-	}
+       }
 	
 }
 
-else{
+  else{
 
-	alert('Welcome,' + userName);
+       alert('Welcome,' + userName);
 
-}
+ }
 	
 
 
