@@ -6,7 +6,7 @@ let userName = prompt('Enter your name here!');
 let userAge = +prompt('Enter your age here');
 
 
- if( userName === null || userName === ''|| isNaN(userAge) || userAge === 0 ){
+ if(   isNaN(userAge) || userAge === 0 ){
 
 	 userName = prompt('Enter your name here to continue!',userName);
 
